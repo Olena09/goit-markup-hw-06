@@ -762,37 +762,6 @@ input {
 
 /*------Media-------*/
 
-@media screen and (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    .main-section {
-        background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7), 
-        rgba(46, 47, 66, 0.7)),
-        url(../images/office@2x.jpg);
-    }
-}
-@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    .main-section {
-        background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7), 
-        rgba(46, 47, 66, 0.7)),
-        url(../images/office-tablet@2x.jpg);
-    }
-}
-@media (min-width: 1158px) and (-webkit-min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-    .main-section {
-        background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7), 
-        rgba(46, 47, 66, 0.7)),
-        url(../images/people-office@2x.jpg);
-    }
-}
-
 @media (max-width: 767px) {
     .head .head-menu-list,
     .head .head-address {
@@ -804,7 +773,24 @@ input {
       display: none;
     }
 }
+
 @media screen and (max-width: 427px) {
+    @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .main-section {
+            background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7), 
+            rgba(46, 47, 66, 0.7)),
+            url(../images/office@2x.jpg);
+        }
+    }
+    .main-section {
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)),
+        url(../images/office.jpg);
+    }
     .mobile-menu.tel-link {
         font-size: 25px;
     }
@@ -827,8 +813,14 @@ input {
             background-image: linear-gradient(
             rgba(46, 47, 66, 0.7), 
             rgba(46, 47, 66, 0.7)),
-            url(..//images/office.jpg);
+            url(../images/office@2x.jpg);
         }
+    }
+    .main-section {
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)),
+        url(../images/office.jpg);
     }
     .container {
         width: 428px;
@@ -846,6 +838,16 @@ input {
 }
 
 @media screen and (min-width: 768px) {
+    @media screen and (-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .main-section {
+            background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7), 
+            rgba(46, 47, 66, 0.7)),
+            url(../images/office-tablet@2x.jpg);
+        }
+    }
     .menu-toggle.js-open-menu {
         display: none;
     }
@@ -1014,8 +1016,14 @@ input {
             background-image: linear-gradient(
             rgba(46, 47, 66, 0.7), 
             rgba(46, 47, 66, 0.7)),
-            url(..//images/people-office@2x.jpg);
+            url(../images/people-office@2x.jpg);
         }
+    }
+    .main-section {
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)),
+        url(../images/people-office.jpg);
     }
     .container {
         width: 1158px;
@@ -1046,10 +1054,6 @@ input {
     color: var(--primary-accent-color);
     }
     .main-section {
-        background-image: linear-gradient(
-            rgba(46, 47, 66, 0.7), 
-            rgba(46, 47, 66, 0.7)),
-            url(../images/people-office.jpg);
         background-repeat: no-repeat;
         color: var(--primary-white-color);
         padding-top: 188px;
@@ -1194,6 +1198,7 @@ input {
     }
 }
 
+/*-------------------------------------------------*/
 /* -------Portfolio-------*/
 /* ----Mobile-----
 .portfolio-navigation {
