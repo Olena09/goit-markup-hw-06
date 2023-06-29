@@ -775,6 +775,12 @@ input {
 }
 
 @media screen and (max-width: 427px) {
+    .main-section {
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)),
+        url(../images/office.jpg);
+    }
     @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -784,12 +790,6 @@ input {
             rgba(46, 47, 66, 0.7)),
             url(../images/office@2x.jpg);
         }
-    }
-    .main-section {
-        background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7), 
-        rgba(46, 47, 66, 0.7)),
-        url(../images/office.jpg);
     }
     .mobile-menu.tel-link {
         font-size: 25px;
@@ -806,6 +806,12 @@ input {
 }
 
 @media screen and (min-width: 428px) {
+    .main-section {
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)),
+        url(../images/office.jpg);
+    }
     @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -815,12 +821,6 @@ input {
             rgba(46, 47, 66, 0.7)),
             url(../images/office@2x.jpg);
         }
-    }
-    .main-section {
-        background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7), 
-        rgba(46, 47, 66, 0.7)),
-        url(../images/office.jpg);
     }
     .container {
         width: 428px;
@@ -838,6 +838,12 @@ input {
 }
 
 @media screen and (min-width: 768px) {
+    .main-section {
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)),
+        url(../images/office-tablet.jpg);
+    }
     @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -909,13 +915,6 @@ input {
     .address-link {
         font-size: 12px;
         line-height: 14px;
-    }
-    .main-section {
-        max-width: 1157px;
-        background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7), 
-        rgba(46, 47, 66, 0.7)),
-        url(../images/office-tablet.jpg);
     }
     .main-section-heading {
         font-size: 56px;
@@ -1009,6 +1008,21 @@ input {
 }   
 
 @media screen and (min-width: 1158px) {
+    .main-section {
+        background-repeat: no-repeat;
+        color: var(--primary-white-color);
+        padding-top: 188px;
+        padding-bottom: 188px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1440px;
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7), 
+        rgba(46, 47, 66, 0.7)),
+        url(../images/people-office.jpg);
+    }
     @media screen and (-webkit-min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
@@ -1018,12 +1032,6 @@ input {
             rgba(46, 47, 66, 0.7)),
             url(../images/people-office@2x.jpg);
         }
-    }
-    .main-section {
-        background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7), 
-        rgba(46, 47, 66, 0.7)),
-        url(../images/people-office.jpg);
     }
     .container {
         width: 1158px;
@@ -1052,17 +1060,6 @@ input {
     .address-link:hover,
     .address-link:focus {
     color: var(--primary-accent-color);
-    }
-    .main-section {
-        background-repeat: no-repeat;
-        color: var(--primary-white-color);
-        padding-top: 188px;
-        padding-bottom: 188px;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1440px;
-        background-position: center;
-        background-size: cover;
     }
     .main-section-heading {
         margin-bottom: 48px;
